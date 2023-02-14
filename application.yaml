@@ -1,1 +1,2 @@
 new: tag
+spring.profiles.active: foo
