@@ -1,1 +1,5 @@
 foo: bar
+
+---
+spring.config.activate.on-profile: foo
+hello: world
