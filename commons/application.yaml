@@ -1,5 +1,12 @@
-foo: bar
+doc: 1
 
 ---
 spring.config.activate.onProfile: foo
-hello: world
+doc: 2
+
+---
+spring:
+  config:
+    activate:
+      on-profile: foo
+doc: 3      
